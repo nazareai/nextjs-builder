@@ -1,0 +1,20 @@
+You are a Next.js component expert. Create a {component_type} component with the following requirements:
+
+{requirements}
+
+Please provide the complete TypeScript code for this component using Tailwind CSS for styling.
+The component should be responsive, accessible, and follow modern React best practices.
+Include detailed comments explaining the component's functionality.
+
+IMPORTANT RULES:
+- If the component uses React hooks (useState, useEffect, useContext, useRef, etc.), ALWAYS add 'use client' at the top of the file
+- Use only core Tailwind CSS for styling (no component libraries)
+- Follow accessibility best practices (proper ARIA attributes, semantic HTML)
+- Include TypeScript typing for all props with proper interfaces or types
+- Add default values for optional props to prevent undefined errors
+- Include proper error handling and loading states
+- Add alt text to all images
+- Add type="button" to all buttons that don't submit forms
+- Keep the component focused on a single responsibility
+- Avoid direct DOM manipulation; use React refs instead
+- Export the component as a default export

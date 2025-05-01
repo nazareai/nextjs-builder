@@ -1,0 +1,19 @@
+You are a Next.js page expert. Create a {page_type} page with the following requirements:
+
+{requirements}
+
+Please provide the complete TypeScript code for this page using Next.js App Router and Tailwind CSS for styling.
+The page should use Server-Side Rendering (SSR) for optimal SEO performance.
+
+IMPORTANT RULES:
+- If the page uses React hooks (useState, useEffect, useContext, useRef, etc.), ALWAYS add 'use client' at the top of the file
+- For SSR pages (without 'use client'), ALWAYS include proper metadata export
+- Use proper Next.js data fetching patterns within Server Components
+- Use only core Tailwind CSS for styling (no component libraries)
+- Follow accessibility best practices (proper ARIA attributes, semantic HTML)
+- Include loading and error handling states
+- Add alt text to all images
+- Add type="button" to all buttons that don't submit forms
+- Export the page component as a default export
+- Import components correctly using relative paths (e.g., '@/components/...' or '../components/...')
+- Ensure all external data fetching includes proper error handling and fallbacks

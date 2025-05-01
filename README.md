@@ -1,7 +1,6 @@
 # Next.js & Tailwind Website Builder from NazareAI
 
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Status](https://img.shields.io/badge/status-alpha-orange)](https://github.com/your-username/nextjs-builder)
 
 An AI-powered module for building customized Next.js and Tailwind CSS websites using natural language descriptions. This tool leverages LangChain and OpenRouter with Claude-3.5-Sonnet to generate high-quality, production-ready code.
